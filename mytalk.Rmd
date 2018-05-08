@@ -1,0 +1,337 @@
+---
+title: "Turning challenges into opportunities as an isolated data scientist"
+subtitle: "Lessons from rstudio::conf"
+author: "Monica Gerber, MPH"
+date: "2018-05-08"
+output:
+  xaringan::moon_reader:
+    css: ["default", "rladies", "rladies-fonts"]
+    nature:
+          highlightLines: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# This talk
+
+1. Isolated data scientists<sup>1</sup>
+2. Jumping into the R community (w/ links to rstudio::conf)
+3. My shiny app
+
+> How can isolated data scientists at Partners address the challenges and take advantages of the opportunities of these roles?
+
+.footnote[ 
+[1] Baumer, B.S., 2017. Lessons from between the white lines for isolated data scientists. [PeerJ PrePrints](https://peerj.com/preprints/3160/).
+]
+---
+
+# My background
+
+.pull-left[
+
+I am currently a Biostatistician at:
+
+* CCHI
+
+<img src="images/mgh-cchi.png" style="width: 200px;"/>
+
+* General Academic Pediatrics
+
+<img src="images/mghfc.png" style="width: 200px;"/>
+
+]
+
+
+.pull-right[
+
+* Anthropologist turned public health data scientist
+* Interests: R, statistical methods for causal inference, community health, social determinants of health
+* R experience: 
+    + Once in undergrad stats course
+    + Started learning in 2015 w/ [swirl](http://swirlstats.com/) package and [coursera](https://www.coursera.org/specializations/jhu-data-science)
+
+
+]
+
+
+
+
+---
+
+# The landscape
+
+Many "isolated data scientists" at Partners.
+
+### My analysis:
+
+* Many opportunities
+* Great challenges may overwhelm these opportunities
+
+<img src="images/lonely-hiker.jpg" style="width: 400px;"/>
+
+---
+
+# Problem
+
+* Training is focused on theoretical topics (how to do a t-test, etc.)
+* Not enough focus on the *practice* of being a data scientist
+* When you're on you're own, logistical challenges can be really tough
+
+<img src="images/desk-thinking.jpg" style="width: 500px;"/>
+
+---
+
+# Options
+
+1. Remain in isolation. Use SAS.
+2. Jump into R community and focus on the *practice* of being a data scientist.
+    + Build what you need
+    + Organize your workflow
+    + Find joy in what you do
+    + Be productive while learning new things
+
+<img src="images/jump.jpg" style="width: 500px;"/>
+
+---
+background-image: url("images/IMG_1303.JPG")
+background-position: 50%
+background-size: 120%
+class: center, top, inverse
+
+# rstudio::conf
+
+
+---
+
+background-image: url("images/ideas.jpg")
+background-position: 50% 50%
+background-size: 120%
+class: right, top, inverse
+
+# Build what you need
+
+<br>
+<br>
+<br>
+No need to wait
+
+Just get your idea out there
+
+
+
+---
+
+## Talks to watch
+
+1. [Contributing to tidyverse packages](https://www.rstudio.com/resources/videos/contributing-to-tidyverse-packages/)
+2. [Fireside chat with Rstudio](https://www.rstudio.com/resources/videos/fireside-chat-with-rstudio-tidyverse-discussion/)
+3. [You can make a package in 20 minutes](https://www.rstudio.com/resources/videos/you-can-make-a-package-in-20-minutes/)
+4. [infer: a package for tidy statistical inference](https://www.rstudio.com/resources/videos/infer-a-package-for-tidy-statistical-inference/)
+
+
+---
+
+background-image: url("images/notes.jpg")
+background-position: 50% 50%
+background-size: 120%
+
+
+# Organize your workflow
+
+* Tidyverse packages 
+* Learn iteration
+
+---
+
+# Talks to watch
+
+1. [The lesser known stars of the tidyverse](https://www.rstudio.com/resources/videos/the-lesser-known-stars-of-the-tidyverse/)
+2. [Modeling in the Tidyverse](https://www.rstudio.com/resources/videos/modeling-in-the-tidyverse/)
+3. [Data rectangling](https://www.rstudio.com/resources/videos/data-rectangling/)
+4. [Tidy eval: Programming with dplyr, tidyr, and ggplot2](https://www.rstudio.com/resources/videos/tidy-eval-programming-with-dplyr-tidyr-and-ggplot2/)
+5. [Teach the Tidyverse to beginners](https://www.rstudio.com/resources/videos/teach-the-tidyverse-to-beginners/)
+
+
+---
+
+background-image: url("images/share.jpg")
+background-position: 50% 50%
+background-size: 120%
+
+
+# Find joy in what you do
+
+* Reach out
+* Make things fun
+
+---
+
+# Talks to watch
+
+1. [A SAS-to-R success story](https://www.rstudio.com/resources/videos/a-sas-to-r-success-story/)
+2. [Five packages in five weeks – from boredom to contribution via blogging](https://www.rstudio.com/resources/videos/five-packages-in-five-weeks-from-boredom-to-contribution-via-blogging/)
+3. [Imagine Boston 2030: Using R-Shiny to keep ourselves accountable and empower the public](https://www.rstudio.com/resources/videos/imagine-boston-2030-using-r-shiny-to-keep-ourselves-accountable-and-empower-the-public/)
+
+---
+
+background-image: url("images/field-notes.jpg")
+background-position: 50% 50%
+background-size: 120%
+
+
+# Balance productivity and learning
+
+<br>
+<br>
+
+* A lot to learn from outside your discipline
+* With Shiny, we're stepping more into a new type of role
+
+---
+
+# Talks to watch
+
+1. [Rapid prototyping data products using Shiny](https://www.rstudio.com/resources/videos/rapid-prototyping-data-products-using-shiny/)
+2. [Agile data science](https://www.rstudio.com/resources/videos/agile-data-science/)
+3. Many [other Shiny talks](https://www.rstudio.com/resources/videos/rstudioconf-2018-talks/#shiny)
+
+---
+
+background-image: url("images/Death_to_stock_communicate_hands_2.jpg")
+background-position: 50% 50%
+background-size: 120%
+class: center, middle, inverse
+
+# getting to work with Shiny
+
+---
+
+# My first app
+
+* An app to visualize economic hardship in Massachusetts based on methodology from Brookings Institution's analysis of [Chicago](https://greatcities.uic.edu/2017/10/11/mapping-the-hardship-index-the-geography-of-poverty-in-san-antonio-and-chicago/) neighborhoods.
+* Center for Community Health Improvement works in low income neighborhoods where economic instability contributes to poor health outcomes. 
+
+![](images/chicago-hardship.png)
+
+
+
+---
+
+# My top logistical challenges
+
+### Marginality
+
+* Data science is tangential to the core work. 
+* Community health workers and managers are most concerned about addressing the immediate problems of patients. Leaders are often focused on finding support for the the community health work.
+
+### Mystery
+
+* People aren't sure exactly what it is that data scientists do.
+* What is Shiny? What is R? Can you help me with my spreadsheet?
+
+
+### Misalignment 
+
+* Poor placement of data scientists.
+* At MGH, people are working many different health centers and offices.
+
+---
+
+# Marginality -> user stories
+
+> User stories are a way to describing the work that puts the focus on the value to the end user.
+
+Before:
+
+I am going to recalculate the Chicago hardship index using 2015 census data to show how economic hardship varies across Massachusetts and visualize it with a choropleth map.
+
+--
+
+As a ____, I need to ____, so that I can ____.
+
+
+After: As an executive at MGH, I need to build a case for CCHI, so that I can find donors to support our work.
+
+
+---
+
+# Mystery -> vertical slicing
+
+> Maximize the work not done.
+
+> Find the thinnest vertical slice.
+
+* Instead of spending hours and hours on something, and then presenting this to the user (the whole cake), the idea is to find the thinnest vertical slice. 
+    + Quickly get from the thinnest layer to the top
+    + Narrow the scope
+
+  
+* Make use of all the time you spend on data collection and manipulation.
+
+<img src="images/cake.jpg" style="width: 200px;"/>
+
+---
+
+background-image: url("images/pretty-paper.jpg")
+background-position: 50% 50%
+background-size: 120%
+
+# Ideas for vertical slicing with shiny
+
+* Build 1 page at a time
+* Use flexdashboards
+* Don't worry if it's not pretty
+* Don't worry if you don't do everything the "right" way 
+
+---
+
+# Misalignment -> Stakeholder reviews
+
+* Review the vertical slices.
+* What do you want to spend time on vs. what is creating value?
+
+<img src="images/postits.jpg" style="width: 500px;"/>
+
+---
+
+# My app
+
+[Link](https://mwgerber.shinyapps.io/hardship_index/) to my app.
+
+![](images/myapp.png)
+
+
+---
+
+background-image: url("images/pretty-paper.jpg")
+background-position: 50% 50%
+background-size: 120%
+
+
+# Key takeaways
+
+* R is a great way to address the challenges of isolation.
+* Use it because it's fun.
+* Tons of online and offline communities to support you.
+* Learning is hard. Be kind to yourself & have compassion for others.
+
+
+---
+class: inverse, center, middle
+
+# Thank you & keep in touch.
+
+<a href="mailto:mwgerber@mgh.harvard.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; mwgerber@mgh.harvard.edu</a><br>
+<a href="http://twitter.com/mwgerber"><i class="fa fa-twitter fa-fw"></i>&nbsp; Twitter: @mwgerber</a><br>
+<a href="http://github.com/monicagerber"><i class="fa fa-github fa-fw"></i>&nbsp; Github: @monicagerber</a><br>
+<a href="https://gitlab.partners.org/u/mwg11"><i class="fa fa-github fa-fw"></i>&nbsp; Partners Gitlab: @mwg11</a><br>
+<a href="https://www.massgeneral.org/cchi/"><i class="fa fa-map-marker fa-fw"></i>&nbsp; MGH Center for Community Health Improvement</a><br>
+<a href="https://www.massgeneral.org/children/research/researchlab.aspx?id=1577"><i class="fa fa-map-marker fa-fw"></i>&nbsp; MGHfC General Academic Pediatrics</a><br>
+<a href="https://www.meetup.com/rladies-boston/"><i class="fa fa-map-marker fa-fw"></i>&nbsp; R-Ladies Boston\*</a><br>
+<br>
+\*Next meetup on May 30th w/ Mara Averick.
+
+
+
