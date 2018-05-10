@@ -219,24 +219,30 @@ class: center, middle, inverse
 
 ---
 
-# My top logistical challenges
+# My top logistical challenges<sup>1</sup>
 
-### Marginality
+#### Marginality
 
 * Data science is tangential to the core work. 
 * Community health workers and managers are most concerned about addressing the immediate problems of patients. Leaders are often focused on finding support for the the community health work.
 
-### Mystery
+#### Mystery
 
 * People aren't sure exactly what it is that data scientists do.
 * What is Shiny? What is R? Can you help me with my spreadsheet?
 
 
-### Misalignment 
+#### Misalignment 
 
 * Poor placement of data scientists.
 * At MGH, people are working many different health centers and offices.
 
+
+.footnote[
+
+[1] From Elaine McVey's talk and blog post: http://www.datawoman.com/
+
+]
 ---
 
 # Marginality -> user stories
@@ -249,7 +255,7 @@ I am going to recalculate the Chicago hardship index using 2015 census data to s
 
 --
 
-As a ____, I need to ____, so that I can ____.
+As a \_\_\_\_, I need to \_\_\_\_, so that I can \_\_\_\_.
 
 
 After: As an executive at MGH, I need to build a case for CCHI, so that I can find donors to support our work.
