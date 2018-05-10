@@ -1,6 +1,6 @@
-# partners-user-group-slides
+# Partners R User Group / 2018-05-08
 
-Slides for my talk at the Partners R User Group on May 8, 2018. 
+Slides for my talk at the [Partners R User Group](https://rc.partners.org/support-training/training/partners-r-user-group) on May 8, 2018. 
 
 Aim of talk:
 
